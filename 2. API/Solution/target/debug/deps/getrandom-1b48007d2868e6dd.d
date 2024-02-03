@@ -1,0 +1,12 @@
+/opt/projects/bootcamp/solved_projects/2. API/Solution/target/debug/deps/libgetrandom-1b48007d2868e6dd.rmeta: /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lib.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error_impls.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util_libc.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/use_file.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lazy.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/linux_android.rs
+
+/opt/projects/bootcamp/solved_projects/2. API/Solution/target/debug/deps/getrandom-1b48007d2868e6dd.d: /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lib.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error_impls.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util_libc.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/use_file.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lazy.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/linux_android.rs
+
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lib.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/error_impls.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/util_libc.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/use_file.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/lazy.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/getrandom-0.2.12/src/linux_android.rs:

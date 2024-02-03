@@ -1,0 +1,12 @@
+/opt/projects/bootcamp/solved_projects/2. API/Solution/target/debug/deps/libtempfile-a4f271820492100f.rmeta: /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/lib.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/dir.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/error.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/file/mod.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/file/imp/mod.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/spooled.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/util.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/file/imp/unix.rs
+
+/opt/projects/bootcamp/solved_projects/2. API/Solution/target/debug/deps/tempfile-a4f271820492100f.d: /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/lib.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/dir.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/error.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/file/mod.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/file/imp/mod.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/spooled.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/util.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/file/imp/unix.rs
+
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/lib.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/dir.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/error.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/file/mod.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/file/imp/mod.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/spooled.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/util.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tempfile-3.9.0/src/file/imp/unix.rs:

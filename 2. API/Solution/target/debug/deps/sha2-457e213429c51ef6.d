@@ -1,0 +1,13 @@
+/opt/projects/bootcamp/solved_projects/2. API/Solution/target/debug/deps/libsha2-457e213429c51ef6.rmeta: /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/lib.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/core_api.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha256.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha512.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/consts.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha256/soft.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha256/x86.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha512/soft.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha512/x86.rs
+
+/opt/projects/bootcamp/solved_projects/2. API/Solution/target/debug/deps/sha2-457e213429c51ef6.d: /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/lib.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/core_api.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha256.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha512.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/consts.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha256/soft.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha256/x86.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha512/soft.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha512/x86.rs
+
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/lib.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/core_api.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha256.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha512.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/consts.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha256/soft.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha256/x86.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha512/soft.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/sha2-0.10.8/src/sha512/x86.rs:

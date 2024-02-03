@@ -1,0 +1,12 @@
+/opt/projects/bootcamp/solved_projects/2. API/Solution/target/debug/deps/libdigest-34d3b8771279df1b.rmeta: /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/lib.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/ct_variable.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/rt_variable.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/wrapper.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/xof_reader.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/digest.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/mac.rs
+
+/opt/projects/bootcamp/solved_projects/2. API/Solution/target/debug/deps/digest-34d3b8771279df1b.d: /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/lib.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/ct_variable.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/rt_variable.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/wrapper.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/xof_reader.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/digest.rs /home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/mac.rs
+
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/lib.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/ct_variable.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/rt_variable.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/wrapper.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/core_api/xof_reader.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/digest.rs:
+/home/nico/.cargo/registry/src/index.crates.io-6f17d22bba15001f/digest-0.10.7/src/mac.rs:
