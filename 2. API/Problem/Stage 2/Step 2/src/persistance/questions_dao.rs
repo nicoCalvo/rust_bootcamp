@@ -1,5 +1,6 @@
 use async_trait::async_trait;
-use sqlx::PgPool;
+use rocket::futures::TryFutureExt;
+use sqlx::{types::Uuid, PgPool};
 
 use crate::models::{DBError, Question, QuestionDetail};
 
@@ -16,64 +17,66 @@ pub struct QuestionsDaoImpl {
 
 impl QuestionsDaoImpl {
     pub fn new(db: PgPool) -> Self {
-        todo!() // return an instance of QuestionsDaoImpl
+        Self{db}
     }
 }
 
 #[async_trait]
 impl QuestionsDao for QuestionsDaoImpl {
     async fn create_question(&self, question: Question) -> Result<QuestionDetail, DBError> {
-        // Make a database query to insert a new question.
-        // Here is the SQL query:
-        // ```
-        // INSERT INTO questions ( title, description )
-        // VALUES ( $1, $2 )
-        // RETURNING *
-        // ```
-        // If executing the query results in an error, map that error to
-        // the`DBError::Other` error and early return from this function.
-        let record = todo!();
-
-        // Populate the QuestionDetail fields using `record`.
+        let mut pool = self.db.acquire()
+        .map_err(|e| DBError::Other(Box::new(e))).await?;
+        let record = sqlx::query!(
+            "INSERT INTO questions(title, description)
+            VALUES ($1, $2)
+            RETURNING question_uuid, created_at",
+            question.title,
+            question.description )
+            .fetch_one(&mut pool)
+            .await
+            .map_err(|e| DBError::Other(Box::new(e)))?;
         Ok(QuestionDetail {
-            question_uuid: todo!(),
-            title: todo!(),
-            description: todo!(),
-            created_at: todo!(),
-        })
-    }
+            question_uuid: record.question_uuid.to_string(),
+            title: question.title,
+            description: question.description,
+            created_at: record.created_at.to_string()
+            })
+}
+       
 
     async fn delete_question(&self, question_uuid: String) -> Result<(), DBError> {
-        // Use the `sqlx::types::Uuid::parse_str` method to parse `question_uuid` into a `Uuid` type.
-        // parse_str docs: https://docs.rs/sqlx/latest/sqlx/types/struct.Uuid.html#method.parse_str
-        //
-        // If `parse_str` returns an error, map the error to a `DBError::InvalidUUID` error
-        // and early return from this function.
-        let uuid = todo!();
 
-        // TODO: Make a database query to delete a question given the question uuid.
-        // Here is the SQL query:
-        // ```
-        // DELETE FROM questions WHERE question_uuid = $1
-        // ```
-        // If executing the query results in an error, map that error
-        // to a `DBError::Other` error and early return from this function.
+        let uuid = Uuid::parse_str(&question_uuid).map_err(|e| DBError::InvalidUUID(question_uuid))?;
+
+        let mut pool = self.db.acquire()
+            .map_err(|e| DBError::Other(Box::new(e))).await?;
+    
+        sqlx::query!("DELETE FROM questions WHERE question_uuid = $1", uuid)
+            .execute(&mut pool)
+            .map_err(|e| DBError::Other(Box::new(e)))
+            .await?;
 
         Ok(())
     }
 
     async fn get_questions(&self) -> Result<Vec<QuestionDetail>, DBError> {
-        // Make a database query to get all questions.
-        // Here is the SQL query:
-        // ```
-        // SELECT * FROM questions
-        // ```
-        // If executing the query results in an error, map that error
-        // to a `DBError::Other` error and early return from this function.
-        let records = todo!();
+        let mut pool = self.db.acquire()
+        .map_err(|e| DBError::Other(Box::new(e))).await?;
 
-        // Iterate over `records` and map each record to a `QuestionDetail` type
-        let questions = todo!();
+        let records = sqlx::query!("SELECT * FROM questions")
+        .fetch_all(&mut pool)
+        .map_err(|e| DBError::Other(Box::new(e)))
+        .await?;
+
+        let questions: Vec<QuestionDetail> = records.iter()
+        .map(|r| {
+            QuestionDetail{
+                question_uuid: r.question_uuid.to_string(),
+                title: r.title.clone(),
+                description: r.description.clone(),
+                created_at: r.created_at.to_string()
+            }
+        }).collect();
 
         Ok(questions)
     }
