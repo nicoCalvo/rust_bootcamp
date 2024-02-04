@@ -15,11 +15,11 @@ async fn rocket() -> _ {
             "/",
             routes![
                 create_question,
-                read_questions
-                // delete_question,
-                // create_answer,
-                // read_answers,
-                // delete_answer
+                read_questions,
+                delete_question,
+                create_answer,
+                read_answers,
+                delete_answer
             ],
         )
         .attach(CORS)
